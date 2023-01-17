@@ -2,7 +2,7 @@ import xmltodict
 from inventory_report.importer.importer import Importer
 
 
-class JsonImporter(Importer):
+class XmlImporter(Importer):
     @classmethod
     def import_data(cls, arquivo: str):
         if not arquivo.endswith(".xml"):
